@@ -1,0 +1,5 @@
+- name: Run ls -al and write output to ~angel/test.txt
+  hosts: all
+  tasks:
+    - name: Run ls -al command and write output to file
+      shell: id ; ls -al ; date > /home/angel/ls_al2.txt
