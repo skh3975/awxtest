@@ -1,0 +1,6 @@
+- name: Display approval reason
+  hosts: localhost
+  tasks:
+    - name: Show the approval reason provided by the requester
+      debug:
+        msg: "Approval reason: {{ approval_reason }}"
