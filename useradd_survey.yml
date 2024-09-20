@@ -1,5 +1,5 @@
 ---
-- name: Install a package using Survey inputs
+- name: Create a user test
   hosts: "{{ target_host }}"
   tasks:
     - name: Create a user
