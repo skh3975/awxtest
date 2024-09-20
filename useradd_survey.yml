@@ -6,3 +6,6 @@
       user:
         name: "{{ user_name }}"
         state: present
+    - name: Collect approval reason
+      debug:
+        msg: "Approval reason provided by user: {{ approval_reason }}"
